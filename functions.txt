@@ -1,0 +1,13 @@
+cv2
+
+cap.set(prop_id, value)
+
+    prop_id
+            cv2.CAP_PROP_FPS: Establece los FPS (fotogramas por segundo).
+            cv2.CAP_PROP_FRAME_WIDTH: Establece el ancho del video (en píxeles).
+            cv2.CAP_PROP_FRAME_HEIGHT: Establece la altura del video (en píxeles).
+            cv2.CAP_PROP_BRIGHTNESS: Establece el brillo de la cámara.
+            cv2.CAP_PROP_CONTRAST: Establece el contraste de la cámara.
+            cv2.CAP_PROP_SATURATION: Establece la saturación de la cámara.
+    value: Es el nuevo valor que deseas asignar a la propiedad especificada.
+
